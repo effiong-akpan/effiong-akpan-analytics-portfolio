@@ -1,0 +1,19 @@
+# Local environments and secrets
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Sensitive exports and local data
+*.key
+*.pem
+credentials.json
+token.json
+secrets.*
+private/
